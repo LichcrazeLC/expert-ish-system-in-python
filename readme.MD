@@ -32,12 +32,15 @@ facts_dictionary = {
   "P": "Is a singer",
   "L": "Looks like a cartoon animal",
   "M": "Has fur",
-  "N": "Is pretty beastly",
+  "N": "Has a big furry nose",
   "Q": "Is a member of this town",
   "R": "Is someone you can see on the streets daily",
   "S": "Is a Looney living here",
   "T": "Has a MOVING OUT truck outside of his house",
-  "U": "Is a Looney that is moving out of the town"
+  "U": "Is a Looney that is moving out of the town",
+  "Y": "Is pretty beastly",
+  "V": "Is recognized by other townsfolk",
+  "Z": "Has big long ears"
 }
 
 #RULES
@@ -54,7 +57,8 @@ rules_list = [
   "LN+Q=",
   "QR>",
   "RS>",
-  "TQ+U="
+  "TYV+U=",
+  "ZN|Y"
 ]
 
 ```
