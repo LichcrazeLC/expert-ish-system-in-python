@@ -12,7 +12,7 @@ python main.py
 ```
 ## Usage
 
-Ff you want to generate a graph and use the expert system with other rules and facts, just change these in storage.py
+If you want to generate a graph and use the expert system with other rules and facts, just change these in storage.py
 
 ```python
 #DATABASE
